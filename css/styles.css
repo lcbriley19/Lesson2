@@ -21,14 +21,19 @@ a:hover {
 }
 
 /* Profile Styles
+
 --------------------------- */
+
 header {
   background-color: #2f3061;
   color: #f7fff7;
 }
 
 /* Projects Styles
+
+ 
 --------------------------- */
+
 .projects {
   background-color: #f7fff7;
 }
@@ -46,16 +51,24 @@ header {
   background: rgba(47, 48, 97, 80%);
 }
 /* Work Experience Styles
+
 --------------------------- */
+
 .work-experience {
   background-color: #a1c6d7;
 }
 
 /* Education Styles
+
+  --------------------------- */
+
+/* Contact Styles
+
 --------------------------- */
 
 /* Contact Styles
 --------------------------- */
+
 footer {
   background-color: #343434;
   color: #f7fff7;
