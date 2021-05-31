@@ -48,6 +48,10 @@ h2 {
   font-weight: 400;
   margin: 0;
 }
+h1,
+h2#header {
+  text-align: center;
+}
 .content-wrap {
   width: 800px;
   margin: 0 auto;
@@ -72,9 +76,6 @@ header {
   background-color: #f7fff7;
 }
 .projects a {
-  color: #2f3061;
-}
-.projects .btn {
   color: #f7fff7;
   background: #2f3061;
   text-decoration: none;
@@ -82,6 +83,7 @@ header {
   border-radius: 4px;
   display: inline-block;
 }
+
 .projects .btn:hover {
   background: rgba(47, 48, 97, 80%);
 }
@@ -93,6 +95,8 @@ header {
 .project-item img {
   float: left;
   margin: 20px;
+  height: 60%;
+  width: 60%;
 }
 
 /* Work Experience Styles
