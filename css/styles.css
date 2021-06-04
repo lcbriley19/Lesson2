@@ -67,13 +67,69 @@ header {
   color: #f7fff7;
 }
 
+/* Navigation
+---------------------------- */
+div.navwrapper {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  background: coral;
+  padding: 0 100px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+ul li.main {
+  position: relative;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+li.main:hover {
+  background: #fff;
+  color: coral;
+}
+
+ul.menu {
+  padding: 0px;
+  position: absolute;
+  top: 48px;
+  left: -10000px;
+  width: 200px;
+  text-align: left;
+}
+
+ul.menu li {
+  background: #fff;
+  display: block;
+  padding: 10px;
+}
+
+ul.menu li:hover {
+  background: #2f3061;
+  color: #fff;
+}
+
+li.main:hover .menu {
+  display: block;
+  left: 0px;
+}
+
 /* Projects Styles
 
  
 --------------------------- */
 
 .projects {
-  background-color: #f7fff7;
+  background-color: #fff;
 }
 .projects a {
   color: #f7fff7;
